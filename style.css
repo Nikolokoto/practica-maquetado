@@ -1,23 +1,147 @@
-@font-face {
-  font-family: 'Proxima Nova';
-  font-weight: normal;
-  src: url('fonts/Proxima\ Nova\ Regular.otf');
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-evenly;
+  position: relative;
+
+   
 }
 
-@font-face {
-  font-family: 'Proxima Nova';
-  font-weight: lighter;
-  src: url('fonts/Proxima\ Nova\ Thin.otf');
+.fa-map-marker-alt {
+  width: 100px;
+  height: 100px;
+  color: purple;
+  font-size: 60px;
+  margin: 10px;
+  padding: 10px;
+}
+.fa-search {
+  color: lightgrey;
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  
 }
 
-@font-face {
-  font-family: 'Proxima Nova';
-  font-weight: bold;
-  src: url('fonts/Proxima\ Nova\ Bold.otf');
+.texto{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  
+  }
+
+  .food {
+    font-weight: 600;
+    font-size: 25px;
+    
+  }
+
+  .delivery {
+    font-size: 15px;
+    color: grey;
+  }
+
+  .texto span {
+    margin: 0;
+    padding: 0;
+  }
+
+  .buscador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #aaaaaa;  
+  
 }
 
-@font-face {
-  font-family: 'Proxima Nova';
-  font-weight: normal;
-  src: url('fonts/Proxima\ Nova\ Extrabold.otf');
+form {
+  position: relative;
+}
+  .input {
+    font-size: 13px;
+    display: block;
+    height: 50px;
+    width: 350px;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;   
+    
+  }
+
+  .grey {
+    color: grey;
+
+  }
+
+  .platos {
+    width: 110px;
+    height: 155px;
+  }
+
+  .seccion1 {
+    display: flex;
+    align-items: center;
+  }
+
+.seccion2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.seccion3 {
+  position: absolute;
+  right: 500px;
+}
+
+.location {
+  width: 20px;
+  height: 20px;
+  color: gray;
+  font-size: 60px;
+}
+
+.container {
+  width: 250px;
+  height: 110px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+.borde {
+  background-color: #34495e;
+  color: white;
+  width: 230px;
+  height: 15px;
+  
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: honeydew;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, rgba(145,33,209,1) 0%, rgba(219,119,163,1) 100%);
+    
+
 }
