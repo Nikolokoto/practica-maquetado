@@ -1,0 +1,79 @@
+.cards {
+	margin: 100px auto 50px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-platos {
+	border-radius: 16px;
+	width: 23%;
+	min-height: 270px;
+	background-color: white;
+	text-align: center;
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nombre-plato {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0;
+	padding: 30px 0 12px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.ingredientes-plato {
+	color: grey;
+	font-weight: lighter;
+	font-size: 14px;
+	margin: 0 auto;
+	width: 90%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.imagen-comida {
+	width: 45%;
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+	padding: 15px;
+	position: absolute;
+	top: -30%;
+	left: 22%;
+	background-color: white;
+}
+
+.imagen-comida img {
+	max-width: 100%;
+}
+
+.fa-info-circle {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: grey;
+}
+
+.fa-plus-circle {
+	font-size: 40px;
+	background-color: white;
+	border-radius: 50%;
+	color: #ec407a;
+	position: absolute;
+	bottom: -20px;
+	left: 120px;
+	box-shadow: 0px 5px 5px 0px #ec407a;
+}
+
+.rectangulo-gris {
+	position: absolute;
+	background-color: rgba(223, 222, 222, 0.815);
+	width: 100vw;
+	left: 0;
+	top: 150px;
+	height: 170px;
+}
